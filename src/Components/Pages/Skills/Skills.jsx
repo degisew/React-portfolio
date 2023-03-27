@@ -1,7 +1,7 @@
 import React from "react";
-import sharedSelectors from "./SharedStyles.module.css";
+import sharedSelectors from "../SharedStyles.module.css";
 import selectors from "./Skills.module.css";
-import { skills, professional, ToolsAndMethods } from "../Components/Data";
+import { skills, professional, ToolsAndMethods } from "../../Data";
 import { FaCheckCircle } from 'react-icons/fa';
 const Skills = () => {
   return (

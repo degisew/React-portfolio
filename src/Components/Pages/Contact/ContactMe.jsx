@@ -1,7 +1,7 @@
 import React from 'react'
-import sharedSelectors from "./SharedStyles.module.css";
+import sharedSelectors from "../SharedStyles.module.css";
 import selectors from "./ContactMe.module.css";
-import { contact } from '../Components/Data';
+import { contact } from '../../Data'
 import {
   AiFillTwitterCircle,
   AiFillGithub,
@@ -16,6 +16,7 @@ const ContactMe = () => {
           <h1>CONTACT</h1>
         </div>
         <div className={selectors.contactDiv}>
+          <div className={selectors.contactList}>
           <div className={selectors.address}>
             <address className={selectors.city}>{contact.address}</address>
             <address className={selectors.postalCode}>
@@ -38,8 +39,19 @@ const ContactMe = () => {
               <ImMail4 className={selectors.gmail} />
             </a>
           </div>
+          </div>
+          <form method="post" action='https://register-demo.freecodecamp.org'>
+    <fieldset>
+        <label for="name">Your Name: <input id="name" name="first-name" type="text" required /></label>
+        <label for="email">Your Email: <input id="email" name="email" type="email" required /></label>
+        <label for="message">Message:
+        <textarea id="message" name="bio" rows="3" cols="30" placeholder="Your mesage here..."></textarea>
+        </label>
+    </fieldset>
+    <input type="submit" value="Submit" />
+    </form>
         </div>
-      </div>
+        </div>
     </section>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import sharedSelectors from '../Pages/SharedStyles.module.css';
+import sharedSelectors from '../SharedStyles.module.css'
 import { testimonals } from '../Components/Data';
 const Testimonal = () => {
   return (

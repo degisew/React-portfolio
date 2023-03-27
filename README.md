@@ -7,8 +7,8 @@ This is a personal portfolio website built with ReactJS.
 ## Author
 👤 **Degisew**
 - GitHub: [degisew](https://github.com/degisew)
-- Twitter: [@DJ_etiya](https://twitter.com/Degisew-mengist)
-- LinkedIn: [jegisew21](https://www.linkedin.com/in/degisew-mengist-003298802)
+- Twitter: [@DJ_etiya](https://twitter.com/@Dj_etiya)
+- LinkedIn: [jegisew21](https://www.linkedin.com/in/degisew-mengist)
 
 ## Available Scripts
 

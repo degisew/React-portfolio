@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
-import NavBar from "./Components/NavBar";
-import AboutMe from "./Pages/AboutMe";
-import ContactMe from "./Pages/ContactMe";
-import Experience from "./Pages/Experience";
-import Home from "./Pages/Home";
-import Projects from "./Pages/Projects";
-import Skills from "./Pages/Skills";
-// import Testimonal from "./Pages/Testimonal";
+import NavBar from "./Components/Navbar/NavBar";
+import AboutMe from "./Components/Pages/About/AboutMe";
+import ContactMe from "./Components/Pages/Contact/ContactMe";
+import Home from "./Components/Pages/Home/Home";
+import Projects from "./Components/Pages/Projects/Projects";
+import Skills from "./Components/Pages/Skills/Skills";
+// import Testimonal from "./Pages/Testimonals/Testimonal";
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
@@ -31,7 +30,6 @@ function App() {
       <Home menu={showMenu} closeMenuHandler={closeMenuHandler} />
       <AboutMe />
       <Skills />
-      <Experience />
       <Projects />
       {/* <Testimonal /> */}
       <ContactMe />

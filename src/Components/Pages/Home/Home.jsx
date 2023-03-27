@@ -1,5 +1,6 @@
 import React from "react";
 import selectors from "./Home.module.css";
+
 const Home = (props) => {
   const closeMenuHandler = (e) => {
     props.closeMenuHandler(e);

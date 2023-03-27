@@ -6,6 +6,7 @@
   background-color: #112340;
   margin: 10px;
   padding: 10px;
+  width: 50%;
 }
 
 .icons {
@@ -79,7 +80,7 @@
 
 @media (min-width: 768px) {
   .mainContainer {
-    display: grid;
+    display: block;
     grid-template-columns: 50% 50%;
     width: 95%;
     color: rgb(203, 205, 208);
@@ -90,8 +91,8 @@
 /* Normal Desktop Breakpoint */
 @media (min-width: 1300px) {
   .mainContainer {
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    /* display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%; */
     width: 95%;
     color: rgb(203, 205, 208);
     margin: auto auto;
