@@ -8,7 +8,7 @@ const styles = {
         borderRadius: '20px',
         templateGridColumns: 'auto auto',
         templateGridRows: 'auto auto',
-        height: '360px', 
+        minHeight: '450px', 
         marginBottom: '30px',
         backgroundColor: '#112340',
         color: '#ffffff',
@@ -16,10 +16,7 @@ const styles = {
         marginLeft: 'auto',
         marginRight: 'auto'
         },
-        cardMedia: {
-          height: 'auto',
-          width: '50%'}
-}
+       }
 
 
 export default styles;
