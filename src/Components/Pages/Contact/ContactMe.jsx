@@ -52,6 +52,20 @@ const ContactMe = () => {
     </form>
         </div>
         </div>
+        <div className={selectors.mobileContactIcons}>
+              <a href="https://www.linkedin.com/in/degisew-mengist">
+                <AiFillLinkedin className={selectors.linkedin} />
+              </a>
+            <a href="https://www.github.com/degisew">
+              <AiFillGithub className={selectors.github} />
+            </a>
+            <a href="https://www.twitter.com/@DJ_etiya">
+              <AiFillTwitterCircle className={selectors.twitter} />
+            </a>
+            <a href="mailto:degisew.mengist21@gmail.com">
+              <ImMail4 className={selectors.gmail} />
+            </a>
+          </div>
     </section>
   );
 }

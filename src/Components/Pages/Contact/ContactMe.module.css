@@ -21,17 +21,27 @@
 }
 
 .contactIcons {
+   display: none;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.mobileContactIcons {
   display: flex;
   justify-content: space-around;
   margin-bottom: 3rem;
 }
 
+.contactList {
+  width: 40%;
+}
 
-
-.contactIcons svg {
+.contactIcons , .mobileContactIcons svg {
     width: 50px;
     height: 50px;
 }
+
+
 .twitter {
   fill: rgb(0, 179, 255);
   color: aliceblue;
@@ -49,9 +59,8 @@
 
 
 form {
-  width: 60vw;
+  width: 50%;
   max-width: 500px;
-  min-width: 300px;
   margin: 0 auto;
   padding-bottom: 2em;
 }
@@ -96,6 +105,12 @@ input[type="submit"] {
   min-width: 300px;
 }
 
+@media (min-width: 375px) {
+  .contactIcons {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .contactDiv {
     display: flex;
@@ -104,18 +119,19 @@ input[type="submit"] {
     align-items: center;
     margin-bottom: 40px;
     text-align: center;
+    top: 0;
   }
 
+  .contactList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .address {
     border: none;
   }
 
-  .contactIcons {
-    display: flex;
-    width: 50%;
-    /* justify-content: space-evenly; */
-  }
-  
   .contactIcons svg {
       margin-right: 0;
       width: 40px;
@@ -127,7 +143,14 @@ input[type="submit"] {
   .address {
       border: none;
       font-size: 18px;
-    }
+  }
+  .contactIcons {
+     display: flex;
+  }
+  
+  .mobileContactIcons {
+    display: none;
+  }
 }
 /* Normal Desktop Breakpoint */
 @media (min-width: 1300px) {
