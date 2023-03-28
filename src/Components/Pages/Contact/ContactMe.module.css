@@ -13,17 +13,22 @@
   color: #2dd4bf;
 }
 
+#error-message {
+  background-color: #ffffff;
+  color: red;
+  font-size: 18px;
+}
+
 .postalCode {
   color: #2dd4bf;
 }
+
 .phone {
   color: #2dd4bf;
 }
 
 .contactIcons {
-   display: none;
-  justify-content: space-around;
-  margin-bottom: 3rem;
+  display: none;
 }
 
 .mobileContactIcons {
@@ -36,33 +41,36 @@
   width: 40%;
 }
 
-.contactIcons , .mobileContactIcons svg {
-    width: 50px;
-    height: 50px;
+.contactIcons,
+.mobileContactIcons svg {
+  width: 30px;
+  height: 30px;
 }
-
 
 .twitter {
   fill: rgb(0, 179, 255);
   color: aliceblue;
   border-inline-color: white;
 }
+
 .github {
   fill: rgb(233, 233, 240);
 }
+
 .linkedin {
   fill: #467af2d6;
 }
+
 .gmail {
   fill: #fff;
 }
 
-
 form {
-  width: 50%;
+  width: 90%;
   max-width: 500px;
   margin: 0 auto;
   padding-bottom: 2em;
+  font-family: 'Tahoma', sans-serif;
 }
 
 fieldset {
@@ -78,6 +86,7 @@ fieldset:last-of-type {
 label {
   display: block;
   margin: 0.5rem 0;
+  text-align: left;
 }
 
 input,
@@ -85,10 +94,6 @@ textarea {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 3em;
-}
-
-input,
-textarea {
   background-color: #0a0a23;
   border: 1px solid #0a0a23;
   color: #fff;
@@ -97,27 +102,28 @@ textarea {
 input[type="submit"] {
   display: block;
   width: 60%;
+  min-width: 50%;
   margin: 1em auto;
   height: 2em;
   font-size: 1.1rem;
   background-color: #3b3b4f;
   border-color: white;
-  min-width: 300px;
 }
 
 @media (min-width: 375px) {
   .contactIcons {
     display: none;
   }
+
+  .contactList {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) {
   .contactDiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
+    display: block;
+    width: 95%;
     text-align: center;
     top: 0;
   }
@@ -125,52 +131,55 @@ input[type="submit"] {
   .contactList {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
+
   .address {
     border: none;
   }
 
   .contactIcons svg {
-      margin-right: 0;
-      width: 40px;
-      height: 40px;
-    }
+    margin-right: 0;
+    width: 40px;
+    height: 40px;
+  }
 }
+
 /* Laptops  Breakpoint */
 @media (min-width: 1024px) {
+  .contactDiv {
+    display: flex;
+    width: 95%;
+    text-align: center;
+    top: 0;
+  }
   .address {
-      border: none;
-      font-size: 18px;
+    border: none;
+    font-size: 18px;
   }
+
   .contactIcons {
-     display: flex;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 15px;
   }
-  
+
   .mobileContactIcons {
     display: none;
   }
 }
+
 /* Normal Desktop Breakpoint */
 @media (min-width: 1300px) {
   .contactDiv {
-      display: grid;
-      grid-template-columns: 50% 50%;
-      /* flex-direction: column;
-      justify-content: center;
-      align-items: center; */
-      margin-bottom: 40px;
-      text-align: center;
-    }
- .address {
-   border: none;
-   font-size: 20px;
- }
-        .contactIcons {
-          display: flex;
-          width: 50%;
-          /* justify-content: space-evenly; */
-        }
-}
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
 
+  .address {
+    border: none;
+    font-size: 20px;
+  }
+}

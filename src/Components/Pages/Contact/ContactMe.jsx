@@ -40,15 +40,16 @@ const ContactMe = () => {
             </a>
           </div>
           </div>
-          <form method="post" action='https://register-demo.freecodecamp.org'>
+          <form method="post" action="https://formspree.io/f/mayvgvny" id='form'>
     <fieldset>
-        <label for="name">Your Name: <input id="name" name="first-name" type="text" required /></label>
-        <label for="email">Your Email: <input id="email" name="email" type="email" required /></label>
-        <label for="message">Message:
-        <textarea id="message" name="bio" rows="3" cols="30" placeholder="Your mesage here..."></textarea>
+        <label htmlFor="name">Your Name: <input id="name" name="first-name" type="text" required /></label>
+        <label htmlFor="email">Your Email: <input id="email" name="email" type="email" required /></label>
+        <label htmlFor="message">Message:
+        <textarea id="message" name="bio" rows="5" cols="30" placeholder="Your mesage here..."></textarea>
         </label>
     </fieldset>
-    <input type="submit" value="Submit" />
+    <input type="submit" value="Send" /><br />
+    <span id="error-message"></span>
     </form>
         </div>
         </div>
