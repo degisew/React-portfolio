@@ -18,7 +18,7 @@ const Projects = () => {
       <div className={selectors.mainContainer}> 
           {projects.map((project) => {
             return (
-              <Card elevation={1} sx={styles.card} >
+              <Card elevation={1} sx={styles.card} key={project.id}>
                 <div className={selectors.demoImage}>
                 <img src={project.url} alt='screenshot' />
                 </div>
