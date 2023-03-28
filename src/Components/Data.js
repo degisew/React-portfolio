@@ -1,27 +1,27 @@
 const skills = [
-  "React/Redux",
-  "JavaScript",
-  "HTML5",
-  "CSS3",
-  "SCSS",
-  "Ruby",
-  "Ruby on Rails",
+  'React/Redux',
+  'JavaScript',
+  'HTML5',
+  'CSS3',
+  'SCSS',
+  'Ruby',
+  'Ruby on Rails',
 ];
 const ToolsAndMethods = [
-  "Git",
-  "GitHub",
-  "Netlify",
-  "Responsive development",
-  "RSpec",
-  "TDD",
-  "VScode",
-  "Chrome Dev Tools",
+  'Git',
+  'GitHub',
+  'Netlify',
+  'Responsive development',
+  'RSpec',
+  'TDD',
+  'VScode',
+  'Chrome Dev Tools',
 ];
 const professional = [
-  "Remote Pair programming",
-  "TeamWork",
-  "Mentoring",
-  "Communication Skills",
+  'Remote Pair programming',
+  'TeamWork',
+  'Mentoring',
+  'Communication Skills',
 ];
 
 const projects = [
@@ -90,10 +90,10 @@ const projects = [
 const testimonals = [];
 
 const contact = {
-  address: "Bahir Dar, Ethiopia",
-  Phone: "+251953059021",
-  postalCode: "Postal code: 6000",
-  email: "degisew.mengist21@gmail.com",
+  address: 'Bahir Dar, Ethiopia',
+  Phone: '+251953059021',
+  postalCode: 'Postal code: 6000',
+  email: 'degisew.mengist21@gmail.com',
 };
 
 export {

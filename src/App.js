@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import NavBar from "./Components/Navbar/NavBar";
-import AboutMe from "./Components/Pages/About/AboutMe";
-import ContactMe from "./Components/Pages/Contact/ContactMe";
-import Home from "./Components/Pages/Home/Home";
-import Projects from "./Components/Pages/Projects/Projects";
-import Skills from "./Components/Pages/Skills/Skills";
+import React, { useState, useEffect } from 'react';
+import NavBar from './Components/Navbar/NavBar';
+import AboutMe from './Components/Pages/About/AboutMe';
+import ContactMe from './Components/Pages/Contact/ContactMe';
+import Home from './Components/Pages/Home/Home';
+import Projects from './Components/Pages/Projects/Projects';
+import Skills from './Components/Pages/Skills/Skills';
 // import Testimonal from "./Pages/Testimonals/Testimonal";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
     } else {
       document.body.style.overflow = 'scroll';
     }
-   }, [showMenu]);
+  }, [showMenu]);
   return (
     <main>
       <NavBar openMenuHandler={openMenuHandler} />
