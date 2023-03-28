@@ -6,7 +6,7 @@ import { projects } from "../../Data";
 import { FiFolder } from "react-icons/fi";
 import { BiLink } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
-import { Card, CardMedia } from "@mui/material"; 
+import { Card } from "@mui/material"; 
 
 const Projects = () => {
   return (
@@ -19,8 +19,9 @@ const Projects = () => {
           {projects.map((project) => {
             return (
               <Card elevation={1} sx={styles.card} >
-                <CardMedia image={project.url} sx={styles.cardMedia} />
-
+                <div className={selectors.demoImage}>
+                <img src={project.url} alt='screenshot' />
+                </div>
                 <div className={selectors.project} key={project.id}>
                 <div className={selectors.icons}>
                   <div className={selectors.folderIcon}>
@@ -49,6 +50,7 @@ const Projects = () => {
                   })}
                 </div>
               </div>
+               
               </Card>
             );
           })}
