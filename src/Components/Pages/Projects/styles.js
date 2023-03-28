@@ -3,7 +3,7 @@ const styles = {
         display: 'flex',
         flexDirection: {
             xs: 'column',
-            sm: 'row'
+            md: 'row'
         },
         borderRadius: '20px',
         templateGridColumns: 'auto auto',
@@ -12,7 +12,10 @@ const styles = {
         marginBottom: '30px',
         backgroundColor: '#112340',
         color: '#ffffff',
-        width: '90%',
+        width: { 
+           xs: '100%',
+           lg: '90%'
+        },
         marginLeft: 'auto',
         marginRight: 'auto'
         },

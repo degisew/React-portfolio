@@ -50,7 +50,6 @@ const Projects = () => {
                   })}
                 </div>
               </div>
-               
               </Card>
             );
           })}

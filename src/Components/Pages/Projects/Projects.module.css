@@ -58,9 +58,9 @@
 }
 
 .builtWith {
-
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
+  width:90%;
   padding-top: 20px;
   column-gap: 10px;
   row-gap: 10px;
@@ -84,11 +84,34 @@
 
 @media (min-width: 375px) {
 .builtWith {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   justify-content: center;
   column-gap: 10px;
   padding-top: 20px;
 }
+
+}
+@media (min-width: 475px) {
+.builtWith {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  column-gap: 10px;
+  padding-top: 20px;
+}
+
+}
+
+@media (min-width: 500px) {
+.builtWith {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: center;
+  column-gap: 10px;
+  padding-top: 20px;
+}
+
 }
 
 @media (min-width: 768px) {
@@ -101,9 +124,19 @@
   text-align: center;
 }
 
-.project {
-  width: 50%;
+.demoImage {
+  display: flex;
+  min-height: 400px;
+  background-color: inherit;
 }
+
+.demoImage img {
+  width: 100%;
+  background-color: inherit;
+  padding: 0;
+  margin: 0;
+}
+
 }
 
 /* Normal Desktop Breakpoint */
@@ -115,18 +148,21 @@
     text-align: center;
   }
 
-.demoImage {
-  display: flex;
-  min-height: 400px;
-  background-color: inherit;
-}
-
-.demoImage img {
-  width: 50%;
-  background-color: inherit;
-  padding: 0;
-  margin: 0;
-}
+  .demoImage {
+    display: flex;
+    min-height: 400px;
+    width: 50%;
+    background-color: inherit;
+    /* border: 1px solid white; */
+  }
+  
+  .demoImage img {
+    background-color: inherit;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
 
 .title {
   text-align: center;
