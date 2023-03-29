@@ -1,28 +1,30 @@
-import React from "react";
-import selectors from "./Home.module.css";
-const Home = (props) => {
-  const closeMenuHandler = (e) => {
-    props.closeMenuHandler(e);
+/* eslint-disable */
+import React from 'react';
+import selectors from './Home.module.css';
+
+const Home = ({ closeMenuHandler, menu }) => {
+  const closeMenuHandlerFun = (e) => {
+    closeMenuHandler(e);
   };
   let mobileMenu;
-  if (props.menu) {
+  if (menu) {
     mobileMenu = (
       <div className={selectors.mobileMenu}>
-        <button onClick={closeMenuHandler}>
+        <button type="button" onClick={closeMenuHandlerFun}>
           <span>X</span>
         </button>
         <div className={selectors.mobileMenuItems}>
-          <a href="#about" onClick={closeMenuHandler}>
+          <a href="#about" onClick={closeMenuHandlerFun}>
             About Me
           </a>
-          <a href="#experience" onClick={closeMenuHandler}>
-            {" "}
+          <a href="#experience" onClick={closeMenuHandlerFun}>
+            {' '}
             Experience
           </a>
-          <a href="#projects" onClick={closeMenuHandler}>
+          <a href="#projects" onClick={closeMenuHandlerFun}>
             Projects
           </a>
-          <a href="#contact" onClick={closeMenuHandler}>
+          <a href="#contact" onClick={closeMenuHandlerFun}>
             Contact
           </a>
           <a
@@ -40,7 +42,7 @@ const Home = (props) => {
       {mobileMenu}
       <div className={selectors.mainDiv}>
         <div className={selectors.hi}>
-          <p>Hi, I'm</p>
+          <p>Hi, I&apos;m</p>
         </div>
         <div className={selectors.nameJobDiv}>
           <div className={selectors.name}>Degisew Mengist</div>

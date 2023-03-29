@@ -1,10 +1,11 @@
-import React from 'react'
-import { SlMenu } from "react-icons/sl";
-import selectors from "./NavBar.module.css";
-const NavBar = (props) => {
-  
-  const openMenuHandler = (e) => {
-    props.openMenuHandler(e);
+/* eslint-disable */
+import React from 'react';
+import { SlMenu } from 'react-icons/sl';
+import selectors from './NavBar.module.css';
+
+const NavBar = ({ openMenuHandler }) => {
+  const openMenuHandlerFun = (e) => {
+    openMenuHandler(e);
   };
   return (
     <div>
@@ -32,13 +33,13 @@ const NavBar = (props) => {
           </nav>
         </div>
         <div className={selectors.menuBtnDiv}>
-          <button className={selectors.MenuBtn} onClick={openMenuHandler}>
+          <button type="button" className={selectors.MenuBtn} onClick={openMenuHandlerFun}>
             <SlMenu />
           </button>
         </div>
       </header>
     </div>
   );
-}
+};
 
-export default NavBar
+export default NavBar;

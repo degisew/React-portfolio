@@ -1,0 +1,187 @@
+.address {
+  width: 60%;
+  margin: 1rem auto;
+  font-size: large;
+  font-family: inherit;
+}
+
+.city {
+  font-size: 1.5rem;
+}
+
+.email {
+  color: #2dd4bf;
+}
+
+#error-message {
+  background-color: #fff;
+  color: red;
+  font-size: 18px;
+}
+
+.postalCode {
+  color: #2dd4bf;
+}
+
+.phone {
+  color: #2dd4bf;
+}
+
+.contactIcons {
+  display: none;
+}
+
+.mobileContactIcons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.contactList {
+  width: 40%;
+}
+
+.contactIcons,
+.mobileContactIcons svg {
+  width: 30px;
+  height: 30px;
+}
+
+.twitter {
+  fill: rgb(0, 179, 255);
+  color: aliceblue;
+  border-inline-color: white;
+}
+
+.github {
+  fill: rgb(233, 233, 240);
+}
+
+.linkedin {
+  fill: #467af2d6;
+}
+
+.gmail {
+  fill: #fff;
+}
+
+form {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  font-family: 'Tahoma', sans-serif;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  text-align: left;
+}
+
+input,
+textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 3em;
+  background-color: #112340;
+  border: 1px solid #0a0a23;
+  border-radius: 5px;
+  color: #fff;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  min-width: 50%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+}
+
+@media (min-width: 375px) {
+  .contactIcons {
+    display: none;
+  }
+
+  .contactList {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .contactDiv {
+    display: block;
+    width: 95%;
+    text-align: center;
+    top: 0;
+  }
+
+  .contactList {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .address {
+    border: none;
+  }
+
+  .contactIcons svg {
+    margin-right: 0;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Laptops  Breakpoint */
+@media (min-width: 1024px) {
+  .contactDiv {
+    display: flex;
+    width: 95%;
+    text-align: center;
+    top: 0;
+  }
+
+  .address {
+    border: none;
+    font-size: 18px;
+  }
+
+  .contactIcons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 15px;
+  }
+
+  .mobileContactIcons {
+    display: none;
+  }
+}
+
+/* Normal Desktop Breakpoint */
+@media (min-width: 1300px) {
+  .contactDiv {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .address {
+    border: none;
+    font-size: 20px;
+  }
+}
