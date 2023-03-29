@@ -19,15 +19,44 @@
   background-color: #112340;
   border: 1px solid black;
   border-radius: 8px;
-  margin: 5px;
+  min-width: 100%;
+  margin-bottom: 5px;
   min-height: 50px;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
 }
 
+ul {
+  list-style-type: none;
+}
+
+.list {
+  display: flex;
+}
+
 .skills svg {
   fill: #2dd4bf;
   margin-right: 3px;
+}
+
+.subTitleSkillContDiv {
+  display: block;
+
+  /* flex-direction: column;
+  align-items: center; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+@media (min-width: 400px) {
+  ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+  }
 }
 
 /* Landscape Mobile Break Point */
@@ -47,8 +76,14 @@
   }
 }
 
-/* Tablet Break Point */
-@media (min-width: 768px) {
+@media (min-width: 700px) {
+  ul {
+    display: block;
+
+    /* grid-template-columns: auto auto;
+    column-gap: 10px; */
+  }
+
   .mainContainer {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -58,14 +93,18 @@
     column-gap: 10px;
     row-gap: 10px;
   }
+}
 
+/* Tablet Break Point */
+@media (min-width: 768px) {
   .subTitleSkillContDiv {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
+    /* justify-content: center; */
     align-items: center;
-    margin-top: 10px;
-    border: 3px solid #112340;
+
+    /* border: 3px solid #112340; */
   }
 
   .skillsContainer {
@@ -91,16 +130,9 @@
 
 /* Laptops break Point */
 @media (min-width: 1024px) {
-  .skills {
-    font-size: 18px;
-  }
-}
-
-/* Normal Desktop breakPoint */
-@media (min-width: 1300px) {
   .mainContainer {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     margin: 10px;
     padding: 10px;
     text-align: center;
@@ -109,14 +141,20 @@
   }
 
   .skills {
+    font-size: 18px;
+  }
+}
+
+/* Normal Desktop breakPoint */
+@media (min-width: 1300px) {
+  .skills {
     font-size: 19px;
   }
 
   .subTitleSkillContDiv {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
-    padding-top: 10px;
-    border: 3px solid #112340;
+
+    /* border: 3px solid #112340; */
   }
 }
