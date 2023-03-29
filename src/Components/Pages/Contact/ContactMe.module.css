@@ -94,8 +94,9 @@ textarea {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 3em;
-  background-color: #0a0a23;
+  background-color: #112340;
   border: 1px solid #0a0a23;
+  border-radius: 5px;
   color: #fff;
 }
 

@@ -29,9 +29,8 @@ function App() {
       <NavBar openMenuHandler={openMenuHandler} />
       <Home menu={showMenu} closeMenuHandler={closeMenuHandler} />
       <AboutMe />
-      <Skills />
       <Projects />
-      {/* <Testimonal /> */}
+      <Skills />
       <ContactMe />
     </main>
   );

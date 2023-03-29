@@ -26,10 +26,12 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .folderIcon {
   color: #2dd4bf;
+  
 }
 
 .linkSeeDiv {
@@ -109,6 +111,10 @@
     justify-content: center;
     column-gap: 10px;
     padding-top: 20px;
+  }
+
+  .icons {
+    font-size: 30px;
   }
 }
 
