@@ -1,27 +1,36 @@
-const skills = [
-  'React/Redux',
+const languages = [
   'JavaScript',
   'HTML5',
   'CSS3',
   'SCSS',
   'Ruby',
-  'Ruby on Rails',
 ];
-const ToolsAndMethods = [
-  'Git',
-  'GitHub',
-  'Netlify',
-  'Responsive development',
+
+const frameworks = [
+  'React/Redux',
+  'Ruby on Rails',
+  'Bootstrap',
   'RSpec',
-  'TDD',
-  'VScode',
+  'Jest',
+
+];
+
+const ToolsAndMethods = [
   'Chrome Dev Tools',
+  'React Dev Tools',
+  'Webstorm',
+  'RubyMine',
+  'Netlify',
+  'GitHub',
+  'VScode',
+  'TDD',
+  'Git',
 ];
 const professional = [
   'Remote Pair programming',
+  'Communication Skills',
   'TeamWork',
   'Mentoring',
-  'Communication Skills',
 ];
 
 const projects = [
@@ -117,7 +126,8 @@ const contact = {
 };
 
 export {
-  skills,
+  languages,
+  frameworks,
   ToolsAndMethods,
   professional,
   projects,

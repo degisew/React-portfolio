@@ -1,7 +1,12 @@
 import React from 'react';
-import { FaCheckCircle } from 'react-icons/fa';
+// import { FaCheckCircle } from 'react-icons/fa';
 import selectors from './Skills.module.css';
-import { skills, professional, ToolsAndMethods } from '../../Data';
+import {
+  languages,
+  frameworks,
+  professional,
+  ToolsAndMethods,
+} from '../../Data';
 import sharedSelectors from '../SharedStyles.module.css';
 
 const Skills = () => (
@@ -11,37 +16,52 @@ const Skills = () => (
     </div>
     <div className={selectors.mainContainer}>
       <div className={selectors.subTitleSkillContDiv}>
-        <h3 className={selectors.subTitle}>Tech Stacks</h3>
-        <div className={selectors.skillsContainer}>
-          {skills.map((skill) => (
-            <div className={selectors.skills} key={skill}>
-              <FaCheckCircle />
-              {skill}
+        <h2>Languages</h2>
+        <br />
+        <ul>
+          {languages.map((language) => (
+            <div className={selectors.list} key={language}>
+              {/* <FaCheckCircle /> */}
+              <li className={selectors.skills}>{language}</li>
             </div>
           ))}
-        </div>
+        </ul>
       </div>
       <div className={selectors.subTitleSkillContDiv}>
-        <h3 className={selectors.subTitle}>Tools & Methods</h3>
-        <div className={selectors.skillsContainer}>
+        <h2>Frameworks/Libraries</h2>
+        <br />
+        <ul>
+          {frameworks.map((framework) => (
+            <div className={selectors.list} key={framework}>
+              {/* <FaCheckCircle /> */}
+              <li className={selectors.skills}>{framework}</li>
+            </div>
+          ))}
+        </ul>
+      </div>
+      <div className={selectors.subTitleSkillContDiv}>
+        <h2>Tools & Methods</h2>
+        <br />
+        <ul>
           {ToolsAndMethods.map((tool) => (
-            <div className={selectors.skills} key={tool}>
-              <FaCheckCircle />
-              {tool}
+            <div className={selectors.list} key={tool}>
+              {/* <FaCheckCircle /> */}
+              <li className={selectors.skills}>{tool}</li>
             </div>
           ))}
-        </div>
+        </ul>
       </div>
       <div className={selectors.subTitleSkillContDiv}>
-        <h3 className={selectors.subTitle}>Professional</h3>
-        <div className={selectors.skillsContainer}>
+        <h2>Professional</h2>
+        <br />
+        <ul>
           {professional.map((profession) => (
-            <div className={selectors.skills} key={profession}>
-              <FaCheckCircle />
-              {profession}
+            <div className={selectors.list} key={profession}>
+              {/* <FaCheckCircle /> */}
+              <li className={selectors.skills}>{profession}</li>
             </div>
           ))}
-        </div>
+        </ul>
       </div>
     </div>
   </section>
