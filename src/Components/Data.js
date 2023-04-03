@@ -18,18 +18,19 @@ const frameworks = [
 const ToolsAndMethods = [
   'Chrome Dev Tools',
   'React Dev Tools',
+  'Git',
+  'GitHub',
+  'VScode',
   'Webstorm',
   'RubyMine',
   'Netlify',
-  'GitHub',
-  'VScode',
   'TDD',
-  'Git',
 ];
 const professional = [
-  'Remote Pair programming',
-  'Communication Skills',
-  'TeamWork',
+  'Pair programming',
+  'Communication',
+  'Problem-solving',
+  'Team-work',
   'Mentoring',
 ];
 
@@ -96,16 +97,6 @@ const projects = [
   },
   {
     id: 7,
-    title: 'Crypto Real-time Pricing',
-    url: 'screenshoots/crypto.png',
-    builtWith: ['React', 'Redux', 'CSS', 'CoinCapAPI'],
-    github: 'https://github.com/degisew/crypto-real-time-pricing',
-    live: 'https://degisew-crypto.netlify.app/',
-    description:
-      'A website used for real-time pricing and market activity for over 1,000 cryptocurrencies. It fetchs Data from CoinCap API 2.0 and offer transparent and accurate data on asset price and availability.',
-  },
-  {
-    id: 8,
     title: 'Awesome Books',
     url: 'screenshoots/awesome.png',
     builtWith: ['HTML5', 'JavaScript', 'CSS3'],
