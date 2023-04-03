@@ -19,11 +19,11 @@ const NavBar = ({ openMenuHandler }) => {
         <div className={selectors.navContainer}>
           <nav id={selectors.navBar}>
             <a href="#about">About Me</a>
-            <a href="#experience"> Experience</a>
             <a href="#projects">Projects</a>
+            <a href="#skills"> Skills</a>
             <a href="#contact">Contact</a>
             <a
-              href="https://drive.google.com/file/d/1Vhfo_7AuEDK6ScO5_l8D2aOQSozd0cXm/view?usp=sharing"
+              href="https://drive.google.com/file/d/1f-C1WzxDX7pkBu8oTpWqeoavpHCRK8Q1/view?usp=share_link"
               id={selectors.resume}
               target="_blank"
               rel="noopener noreferrer"

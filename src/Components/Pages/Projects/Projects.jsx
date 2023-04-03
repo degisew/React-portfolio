@@ -27,12 +27,20 @@ const Projects = () => (
                 </div>
                 <div className={selectors.linkSeeDiv}>
                   <div>
-                    <a href={project.live}>
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <BiLink />
                     </a>
                   </div>
                   <div>
-                    <a href={project.github}>
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <FaGithub />
                     </a>
                   </div>
