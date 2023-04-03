@@ -26,59 +26,101 @@ const ContactMe = () => (
             <address className={selectors.email}>{contact.email}</address>
           </div>
           <div className={selectors.contactIcons}>
-            <a href="https://www.linkedin.com/in/degisew-mengist">
+            <a
+              href="https://www.linkedin.com/in/degisew-mengist"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <AiFillLinkedin className={selectors.linkedin} />
             </a>
-            <a href="https://www.github.com/degisew">
+            <a
+              href="https://www.github.com/degisew"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <AiFillGithub className={selectors.github} />
             </a>
-            <a href="https://www.twitter.com/@DJ_etiya">
+            <a
+              href="https://www.twitter.com/@DJ_etiya"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <AiFillTwitterCircle className={selectors.twitter} />
             </a>
-            <a href="mailto:degisew.mengist21@gmail.com">
+            <a
+              href="mailto:degisew.mengist21@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <ImMail4 className={selectors.gmail} />
             </a>
           </div>
         </div>
-        <form method="post" action="https://formspree.io/f/mayvgvny" id="form">
-          <fieldset>
-            <label htmlFor="name">
-              Your Name:
-              {' '}
-              <input id="name" name="first-name" type="text" required />
-            </label>
-            <label htmlFor="email">
-              Your Email:
-              {' '}
-              <input id="email" name="email" type="email" required />
-            </label>
-            <label htmlFor="message">
-              Message:
-              <textarea
-                id="message"
-                name="bio"
-                rows="5"
-                cols="30"
-                placeholder="Your mesage here..."
-              />
-            </label>
-          </fieldset>
-          <input type="submit" value="Send" />
-          <br />
-        </form>
+        <div>
+          <p className={selectors.callToAction}>
+            Let&apos;s get in touch to explore more on my skills and previous
+            work.
+          </p>
+          <form
+            method="post"
+            action="https://formspree.io/f/mayvgvny"
+            id="form"
+          >
+            <fieldset>
+              <label htmlFor="name">
+                Your Name:
+                {' '}
+                <input id="name" name="first-name" type="text" required />
+              </label>
+              <label htmlFor="email">
+                Your Email:
+                {' '}
+                <input id="email" name="email" type="email" required />
+              </label>
+              <label htmlFor="message">
+                Message:
+                <textarea
+                  id="message"
+                  name="bio"
+                  rows="5"
+                  cols="30"
+                  placeholder="Your mesage here..."
+                />
+              </label>
+            </fieldset>
+            <input type="submit" value="Get in touch" />
+            <br />
+          </form>
+        </div>
       </div>
     </div>
     <div className={selectors.mobileContactIcons}>
-      <a href="https://www.linkedin.com/in/degisew-mengist">
+      <a
+        href="https://www.linkedin.com/in/degisew-mengist"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <AiFillLinkedin className={selectors.linkedin} />
       </a>
-      <a href="https://www.github.com/degisew">
+      <a
+        href="https://www.github.com/degisew"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <AiFillGithub className={selectors.github} />
       </a>
-      <a href="https://www.twitter.com/@DJ_etiya">
+      <a
+        href="https://www.twitter.com/@DJ_etiya"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <AiFillTwitterCircle className={selectors.twitter} />
       </a>
-      <a href="mailto:degisew.mengist21@gmail.com">
+      <a
+        href="mailto:degisew.mengist21@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <ImMail4 className={selectors.gmail} />
       </a>
     </div>
