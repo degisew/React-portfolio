@@ -51,6 +51,11 @@ ul {
   width: 90%;
 }
 
+.toolsAndMethods {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
 @media (min-width: 400px) {
   ul {
     display: grid;
@@ -151,10 +156,8 @@ ul {
     font-size: 19px;
   }
 
-  .subTitleSkillContDiv {
+  /* .subTitleSkillContDiv {
     display: flex;
     flex-direction: column;
-
-    /* border: 3px solid #112340; */
-  }
+  } */
 }

@@ -10,7 +10,7 @@ import {
 import sharedSelectors from '../SharedStyles.module.css';
 
 const Skills = () => (
-  <section>
+  <section id="skills">
     <div className={sharedSelectors.title}>
       <h1>SKILLS</h1>
     </div>
@@ -28,7 +28,7 @@ const Skills = () => (
         </ul>
       </div>
       <div className={selectors.subTitleSkillContDiv}>
-        <h2>Frameworks/Libraries</h2>
+        <h2>Frameworks and Libraries</h2>
         <br />
         <ul>
           {frameworks.map((framework) => (
@@ -42,7 +42,7 @@ const Skills = () => (
       <div className={selectors.subTitleSkillContDiv}>
         <h2>Tools & Methods</h2>
         <br />
-        <ul>
+        <ul className={selectors.toolsAndMethods}>
           {ToolsAndMethods.map((tool) => (
             <div className={selectors.list} key={tool}>
               {/* <FaCheckCircle /> */}
