@@ -17,9 +17,9 @@ const Home = ({ closeMenuHandler, menu }) => {
           <a href="#about" onClick={closeMenuHandlerFun}>
             About Me
           </a>
-          <a href="#experience" onClick={closeMenuHandlerFun}>
+          <a href="#skills" onClick={closeMenuHandlerFun}>
             {' '}
-            Experience
+            Skills
           </a>
           <a href="#projects" onClick={closeMenuHandlerFun}>
             Projects

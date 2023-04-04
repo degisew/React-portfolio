@@ -138,6 +138,7 @@ input[type="submit"] {
   .callToAction {
     font-family: 'Tahoma', sans-serif;
     font-size: 2rem;
+    margin: 0 auto;
   }
 
   .contactList {
