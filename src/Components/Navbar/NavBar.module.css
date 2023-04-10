@@ -4,6 +4,10 @@
   align-items: center;
   min-height: 70px;
   padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logoContainer {
