@@ -28,8 +28,10 @@ const Home = ({ closeMenuHandler, menu }) => {
             Contact
           </a>
           <a
-            href="https://docs.google.com/document/d/1TOY9uKGxlkVb5bK8gEZmcgrvAm5k2krAh1R-eowCYaU/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1f-C1WzxDX7pkBu8oTpWqeoavpHCRK8Q1/view?usp=share_link"
             id={selectors.resume}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Resume
           </a>
