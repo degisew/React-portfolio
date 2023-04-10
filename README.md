@@ -53,7 +53,7 @@ Your app is ready to be deployed!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/degisew/Reactportfolio/issues).
+Feel free to check the [issues page](https://github.com/degisew/React-portfolio/issues).
 
 ## Show your support
 
