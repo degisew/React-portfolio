@@ -8,7 +8,7 @@ const NavBar = ({ openMenuHandler }) => {
     openMenuHandler(e);
   };
   return (
-    <div>
+    <>
       <header className={selectors.header}>
         <div className={selectors.logoContainer}>
           <a href="#home">
@@ -38,7 +38,7 @@ const NavBar = ({ openMenuHandler }) => {
           </button>
         </div>
       </header>
-    </div>
+    </>
   );
 };
 
