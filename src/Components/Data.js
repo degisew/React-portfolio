@@ -45,16 +45,19 @@ const projects = [
     description:
       'A budget app is a web up built with Ruby o Rails. It will introduce transactions for each category and tracks the amount of money you spent on each category.',
   },
-  {
-    id: 2,
-    title: 'Recipe App',
-    url: 'screenshoots/recipe.png',
-    builtWith: ['Ruby', 'Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
-    github: 'https://github.com/degisew/Recipe-App',
-    live: '',
-    description:
-      'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them.',
-  },
+  // {
+  //   id: 2,
+  //   title: 'Recipe App',
+  //   url: 'screenshoots/recipe.png',
+  //   builtWith: ['Ruby', 'Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
+  //   github: 'https://github.com/degisew/Recipe-App',
+  //   live: '',
+  //   description:
+  //   'The Recipe app keeps track of all your recipes, ingredients, and inventory.
+  // It will allow you to save ingredients, keep track of what you have, create recipes, and
+  //  generate a shopping list based on what you have and what you are missing from a recipe.Also,
+  //  since sharing recipes is an important part of cooking the app should allow you to make them.',
+  // },
   {
     id: 3,
     title: 'E-Commerce Shop App',
