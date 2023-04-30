@@ -12,8 +12,6 @@ const frameworks = [
   'Django',
   'Bootstrap',
   'RSpec',
-  'Jest',
-
 ];
 
 const ToolsAndMethods = [
