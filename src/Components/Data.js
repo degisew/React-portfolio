@@ -1,14 +1,15 @@
 const languages = [
   'JavaScript',
+  'Python',
+  'Ruby',
   'HTML5',
   'CSS3',
-  'SCSS',
-  'Ruby',
 ];
 
 const frameworks = [
   'React/Redux',
   'Ruby on Rails',
+  'Django',
   'Bootstrap',
   'RSpec',
   'Jest',
