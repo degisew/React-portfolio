@@ -23,7 +23,7 @@ const NavBar = ({ openMenuHandler }) => {
             <a href="#skills"> Skills</a>
             <a href="#contact">Contact</a>
             <a
-              href="https://drive.google.com/file/d/1VkYKuEK-ZD4yITcOL24xtn5-nWjYdBcy/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ul9bC97ruXNa6ViY4pKeYd-EkbPqwmrL/view?usp=sharing"
               id={selectors.resume}
               target="_blank"
               rel="noopener noreferrer"
