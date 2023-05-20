@@ -28,7 +28,7 @@ const Home = ({ closeMenuHandler, menu }) => {
             Contact
           </a>
           <a
-            href="https://drive.google.com/file/d/1f-C1WzxDX7pkBu8oTpWqeoavpHCRK8Q1/view?usp=share_link"
+            href="https://drive.google.com/file/d/1ul9bC97ruXNa6ViY4pKeYd-EkbPqwmrL/view?usp=sharing"
             id={selectors.resume}
             target="_blank"
             rel="noopener noreferrer"
