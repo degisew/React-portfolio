@@ -11,31 +11,23 @@ const AboutMe = () => (
       <div className={selectors.photoDetailDiv}>
         <div className={selectors.myDetail}>
           <p>
-            I am Degisew, and I am a front-end web developer in love with
-            creating beautiful and interactive UI. Currently, I’m enrolling at
-            microverse, an online web development school to jump to full-stack
-            development.
+            I am Degisew, A software engineer with over 3 years of experience developing efficient software applications in a global market.
+            Writes clean, and well-designed code that adheres to best practices and standards.
           </p>
           <br />
           <p>
-            I began my career by teaching IT courses in private colleges. My
-            time as an instructor was very interesting because there were a lot
-            of questions and answers and that really helped me to practice more
-            and to stay updated with the technology. Last year, I developed an
-            internship platform for my school by learning a new framework and I
-            got recognition for this achievement. Currently, I am working on a
-            project which is an online web development learning platform aimed
-            to teach Ethiopian students in their native language.
+          In my previous role as a Back-end developer at The-Hot-Platform startup, I was responsible for the development and maintenance of a large-scale web application. I worked closely with a team of developers to design, implement, and test the application. 
+          I also worked with the QA team to ensure that the application met all of the requirements.
           </p>
           {' '}
           <br />
           <p>
-            The one thing that makes me special is when I am working on a
-            project, I give full focus and tend to be goal oriented till I
-            finish it and I can take care of full responsibility to do it on my
-            own self if it is necessary. I also have an experience in pair
-            programming and can collaborate in remote work with any devs around
-            the globe.
+            I am a highly motivated and results-oriented individual. I am also a team player and I am always willing to help others.
+            In my spare time, I enjoy reading, and spending time with my family and friends.
+            I am eager to learn new things and I am always looking for new challenges.  I am confident that I can make a significant contribution to your company.
+         
+
+
           </p>
         </div>
         <div className={selectors.photo}>
