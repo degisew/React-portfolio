@@ -11,7 +11,7 @@ const AboutMe = () => (
       <div className={selectors.photoDetailDiv}>
         <div className={selectors.myDetail}>
           <p>
-            I am Degisew, A software engineer with over 3 years of experience developing efficient software applications in a global market.
+            I am Degisew, A Full-stack developer with over 3 years of experience developing efficient software applications in a global market.
             Writes clean, and well-designed code that adheres to best practices and standards.
           </p>
           <br />
@@ -25,9 +25,6 @@ const AboutMe = () => (
             I am a highly motivated and results-oriented individual. I am also a team player and I am always willing to help others.
             In my spare time, I enjoy reading, and spending time with my family and friends.
             I am eager to learn new things and I am always looking for new challenges.  I am confident that I can make a significant contribution to your company.
-         
-
-
           </p>
         </div>
         <div className={selectors.photo}>
