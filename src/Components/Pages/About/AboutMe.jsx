@@ -19,16 +19,16 @@ const AboutMe = () => (
           <p>
             In my previous role as a Back-end developer at The-Hot-Platform startup,
             I was responsible for the development and maintenance of a large-scale web application. 
-            I worked closely with a team of developers to design, implement, and test the application. 
+            I worked closely with a team of developers to design, implement, and test the application.
             I also worked with the QA team to ensure that the application met all of the requirements.
           </p>
           {' '}
           <br />
           <p>
             I am a highly motivated and results-oriented individual. I am also a team player and
-            I am always willing to help others.In my spare time, I enjoy reading, and spending time with my family and friends.
-            I am eager to learn new things and I am always looking for new challenges.  
-            I am confident that I can make a significant contribution to your company.
+            I am always willing to help others. In my spare time, I enjoy reading, and spending
+            time with my family and friends. I am eager to learn new things and I am always looking
+            for new challenges. I am confident that I can make a significant contribution to your company.
           </p>
         </div>
         <div className={selectors.photo}>
