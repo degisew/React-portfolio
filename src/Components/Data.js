@@ -112,9 +112,9 @@ const projects = [
 const testimonals = [];
 
 const contact = {
-  address: 'Bahir Dar, Ethiopia',
+  address: 'Addis Ababa, Ethiopia',
   Phone: '+251953059021',
-  postalCode: 'Postal code: 6000',
+  // postalCode: 'Postal code: 6000',
   email: 'degisew.mengist21@gmail.com',
 };
 
