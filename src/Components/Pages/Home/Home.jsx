@@ -52,10 +52,9 @@ const Home = ({ closeMenuHandler, menu }) => {
         </div>
         <div className={selectors.description}>
           <p>
-            I am a Full-stack developer and open-source enthusiast with a love
-            for clean code and accessible design. Pair-programming and remote
-            work aficionado. Fluent in multiple languages, frameworks, and
-            technologies, and capable of ramping up quickly and efficiently.
+            A passionate and versatile developer dedicated to crafting 
+            meaningful and efficient solutions. Pair-programming and remote
+            work aficionado. Skilled in problem solving and I use code as a tool to write a solution.
           </p>
         </div>
       </div>

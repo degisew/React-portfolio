@@ -11,26 +11,7 @@ const AboutMe = () => (
       <div className={selectors.photoDetailDiv}>
         <div className={selectors.myDetail}>
           <p>
-            I am Degisew, A Full-stack developer with over 3 years of experience developing
-            efficient software applications in a global market.
-            Writes clean, and well-designed code that adheres to best practices and standards.
-          </p>
-          <br />
-          <p>
-            In my previous role as a Back-end developer at The-Hot-Platform startup,
-            I was responsible for the development and maintenance of a large-scale web application.
-            I worked closely with a team of developers to design, implement,
-            and test the application. I also worked with the QA team
-            to ensure that the application met all of the requirements.
-          </p>
-          {' '}
-          <br />
-          <p>
-            I am a highly motivated and results-oriented individual. I am also a team player and
-            I am always willing to help others. In my spare time, I enjoy reading, and spending
-            time with my family and friends. I am eager to learn new things and
-            I am always looking for new challenges.
-            I am confident that I can make a significant contribution to your company.
+            I am Degisew, A seasoned software engineer with three years of experience specializing in Back-end development, focused on creating and maintaining robust, high-performance web applications for the global market. I'm Expert in crafting clean, efficient, well-designed code that strictly adheres to best practices and standards. Proficient in Python, Django, JavaScript, NodeJs, ExpressJs and databases including PostgreSQL, MySQL, Neo4j, and MongoDB, Excel in architecting scalable and secure server-side solutions. I'm Dedicated to continuous learning and possess a strong work ethic. As a dedicated team player, I bring exceptional communication, collaboration, and problem-solving skills to the table. I'm Confident in my ability to make a significant contribution to the team, working collectively to achieve project goals and deliver high-quality back-end solutions.
           </p>
         </div>
         <div className={selectors.photo}>
