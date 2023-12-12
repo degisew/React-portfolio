@@ -54,7 +54,7 @@ const Home = ({ closeMenuHandler, menu }) => {
           <p>
             A passionate and versatile developer dedicated to crafting 
             meaningful and efficient solutions. Pair-programming and remote
-            work aficionado. Skilled in problem solving and I use code as a tool to write a solution.
+            work aficionado. Skilled in problem solving and I use code as a tool to write the solution.
           </p>
         </div>
       </div>
