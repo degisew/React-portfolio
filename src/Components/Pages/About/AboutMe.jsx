@@ -11,7 +11,7 @@ const AboutMe = () => (
       <div className={selectors.photoDetailDiv}>
         <div className={selectors.myDetail}>
           <p>
-            I am Degisew, an Experienced Software engineer with three years of expertise 
+            I am Degisew, an Experienced Software engineer with three years of expertise
             in developing and maintaining high-performance web applications globally.
             Proficient in Python, Django, JavaScript, and databases like
             PostgreSQL, MySQL, Neo4j, and MongoDB. Specialized in architecting
