@@ -11,11 +11,11 @@ const AboutMe = () => (
       <div className={selectors.photoDetailDiv}>
         <div className={selectors.myDetail}>
           <p>
-            I am Degisew, an Experienced Software engineer with three years of expertise in developing 
-            and maintaining high-performance web applications globally. 
-            Proficient in Python, Django, JavaScript, and databases like 
-            PostgreSQL, MySQL, Neo4j, and MongoDB. Specialized in architecting 
-            scalable and secure server-side solutions. Committed to continuous learning, 
+            I am Degisew, an Experienced Software engineer with three years of expertise 
+            in developing and maintaining high-performance web applications globally.
+            Proficient in Python, Django, JavaScript, and databases like
+            PostgreSQL, MySQL, Neo4j, and MongoDB. Specialized in architecting
+            scalable and secure server-side solutions. Committed to continuous learning,
             a dedicated team player with excellent communication, collaboration,
             and problem-solving skills. Confident in contributing significantly
             to project goals and delivering top-notch software solutions.
