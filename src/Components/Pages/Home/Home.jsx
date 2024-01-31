@@ -52,7 +52,7 @@ const Home = ({ closeMenuHandler, menu }) => {
         </div>
         <div className={selectors.description}>
           <p>
-            A passionate and versatile Software developer dedicated to crafting 
+            A passionate and versatile Software Engineer dedicated to crafting 
             meaningful and efficient solutions. Pair-programming and remote
             work aficionado. Skilled in problem solving and I use code as a tool to write the solution.
           </p>
