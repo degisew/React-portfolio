@@ -41,10 +41,10 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Discord',
+    title: 'HubSpot',
     url: 'screenshoots/discord.png',
     builtWith: ['Python', 'Django', 'PostgreSQL', 'Bootstrap'],
-    github: 'https://github.com/degisew/discord-clone',
+    github: 'https://github.com/degisew/HubSpot',
     live: '',
     description:
       `A real-time chat application using Django and Python, inspired by Discord. This project aims to replicate some of the key features of Discord, allowing users to create and join chat rooms, send and receive messages in real-time, and manage user accounts. 
