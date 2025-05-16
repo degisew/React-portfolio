@@ -1,6 +1,6 @@
 /* eslint-disable */
-import React from "react";
-import selectors from "./Home.module.css";
+import React from 'react';
+import selectors from './Home.module.css';
 
 const Home = ({ closeMenuHandler, menu }) => {
   const closeMenuHandlerFun = (e) => {

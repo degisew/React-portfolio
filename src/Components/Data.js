@@ -132,7 +132,7 @@ const projects = [
   //   description:
   //     `A website built with React, Redux, MUI, SpaceX API, and CSS.
   //      Some of the features are: a user can reserve rockets, can register
-  //      and join missions, and can see his/her reservation details in his profile 
+  //      and join missions, and can see his/her reservation details in his profile
   //      section. The user can also cancel the reservation any time.`,
   // },
   // {
