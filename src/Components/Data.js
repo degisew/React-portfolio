@@ -52,7 +52,7 @@ const projects = [
       'PostgreSQL',
       'Docker',
     ],
-    github: 'https://github.com/degisew/event_ticketing',
+    github: 'https://github.com/degisew/artisan_marketplace',
     live: '',
     description: `Artisan Marketplace is a platform designed to connect local 
     artisans with buyers in their community. The goal is to create a digital
