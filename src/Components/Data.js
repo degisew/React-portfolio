@@ -1,86 +1,98 @@
-const languages = ["Python", "SQL", "HTML5", "CSS3"];
+const languages = ['Python', 'SQL', 'HTML5', 'CSS3'];
 
-const frameworks = ["Django Rest Framework", "FastAPI", "Django"];
+const frameworks = ['Django Rest Framework', 'FastAPI', 'Django'];
 
 const ToolsAndMethods = [
-  "Git",
-  "GitHub",
-  "GitLab",
-  "Docker",
-  "Celery",
-  "Linux",
-  "TDD",
-  "AWS",
-  "SQL Alchemy",
-  "CI/CD",
+  'Git',
+  'GitHub',
+  'GitLab',
+  'Docker',
+  'Celery',
+  'Linux',
+  'TDD',
+  'AWS',
+  'SQL Alchemy',
+  'CI/CD',
 ];
 const professional = [
-  "Communication",
-  "Problem-solving",
-  "Team-work",
-  "Mentoring",
+  'Communication',
+  'Problem-solving',
+  'Team-work',
+  'Mentoring',
 ];
 
 const projects = [
   {
     id: 1,
-    title: "Event Ticket Reservation",
-    url: "",
+    title: 'Event Ticket Reservation',
+    url: '',
     builtWith: [
-      "Python",
-      "Django",
-      "Django Rest Framework",
-      "PostgreSQL",
-      "Docker",
-      "Redis",
-      "Celery",
+      'Python',
+      'Django',
+      'Django Rest Framework',
+      'PostgreSQL',
+      'Docker',
+      'Redis',
+      'Celery',
     ],
-    github: "https://github.com/degisew/event_ticketing",
-    live: "",
-    description: `A platform that enables users to seamlessly browse, book, and manage event tickets. Designed for organizers to create and manage events, and for attendees to easily purchase tickets and track their bookings.`,
+    github: 'https://github.com/degisew/event_ticketing',
+    live: '',
+    description: `A platform that enables users to seamlessly browse, book, and manage
+    event tickets. Designed for organizers to create and manage events,
+    and for attendees to easily purchase tickets and track their bookings.`,
   },
   {
     id: 2,
-    title: "Artisan Marketplace",
-    url: "",
+    title: 'Artisan Marketplace',
+    url: '',
     builtWith: [
-      "Python",
-      "Django",
-      "Django Rest Framework",
-      "PostgreSQL",
-      "Docker",
+      'Python',
+      'Django',
+      'Django Rest Framework',
+      'PostgreSQL',
+      'Docker',
     ],
-    github: "https://github.com/degisew/event_ticketing",
-    live: "",
-    description: `Artisan Marketplace is a platform designed to connect local artisans with buyers in their community. The goal is to create a digital marketplace where artisans can showcase and sell their handmade products, making it easier for customers to discover and support local craftsmanship.`,
+    github: 'https://github.com/degisew/event_ticketing',
+    live: '',
+    description: `Artisan Marketplace is a platform designed to connect local 
+    artisans with buyers in their community. The goal is to create a digital
+    marketplace where artisans can showcase and sell their handmade products,
+    making it easier for customers to discover and support local craftsmanship.`,
   },
   {
     id: 3,
-    title: "HubSpot",
-    url: "screenshoots/discord.png",
-    builtWith: ["Python", "Django", "PostgreSQL", "Bootstrap", "HTML5", "CSS3"],
-    github: "https://github.com/degisew/HubSpot",
-    live: "",
-    description: `A chat application using Django and Python, inspired by Discord. This project aims to replicate some of the key features of Discord, allowing users to create and join chatrooms, send and receive messages in real time, and manage user accounts. Implemented text messaging, user authentication, roles, and permissions.`,
+    title: 'HubSpot',
+    url: 'screenshoots/discord.png',
+    builtWith: ['Python', 'Django', 'PostgreSQL', 'Bootstrap', 'HTML5', 'CSS3'],
+    github: 'https://github.com/degisew/HubSpot',
+    live: '',
+    description: `A chat application using Django and Python, inspired by Discord.
+    This project aims to replicate some of the key features of Discord,
+    allowing users to create and join chatrooms, send and receive
+    messages in real time, and manage user accounts. Implemented text messaging,
+    user authentication, roles, and permissions.`,
   },
   {
     id: 4,
-    title: "Commerce Store",
-    url: "screenshoots/commercestore.png",
-    builtWith: ["Python", "Django", "Django Rest Framework", "PostgreSQL"],
-    github: "https://github.com/degisew/commerce-store",
-    live: "",
-    description: `A back-end e-commerce API built with Python, Django, and PostgreSQL. It includes endpoints for creating, retrieving, updating, and deleting products, as well as for managing orders, customers, carts, and their items.`,
+    title: 'Commerce Store',
+    url: 'screenshoots/commercestore.png',
+    builtWith: ['Python', 'Django', 'Django Rest Framework', 'PostgreSQL'],
+    github: 'https://github.com/degisew/commerce-store',
+    live: '',
+    description: `A back-end e-commerce API built with Python, Django, and PostgreSQL.
+    It includes endpoints for creating, retrieving, updating, and deleting products,
+    as well as for managing orders, customers, carts, and their items.`,
   },
   {
     id: 5,
-    title: "E-Commerce Shop App",
-    url: "screenshoots/commerce.png",
-    builtWith: ["React", "CSS3", "Material-UI", "Commercejs-API", "Stripe"],
-    github: "https://github.com/degisew/E-commerce",
-    live: "https://degisew-commerce.netlify.app/",
+    title: 'E-Commerce Shop App',
+    url: 'screenshoots/commerce.png',
+    builtWith: ['React', 'CSS3', 'Material-UI', 'Commercejs-API', 'Stripe'],
+    github: 'https://github.com/degisew/E-commerce',
+    live: 'https://degisew-commerce.netlify.app/',
     description: `A full-stack E-Commerce app for your shopping business. 
-       It allows users to buy products, add to the cart, remove from the cart, choose the shipping process, and make payments.`,
+    It allows users to buy products, add to the cart, remove from the cart,
+    choosethe shipping process, and make payments.`,
   },
   // {
   //   id: 3,
@@ -91,7 +103,8 @@ const projects = [
   //   live: '',
   //   description:
   //     `A budget app is a web up built with Ruby o Rails.
-  //      It will introduce transactions for each category and tracks the amount of money you spent on each category.`,
+  //      It will introduce transactions for each category and tracks the
+  //      amount of money you spent on each category.`,
   // },
   // {
   //   id: 4,
@@ -101,8 +114,12 @@ const projects = [
   //   github: 'https://github.com/degisew/Recipe-App',
   //   live: '',
   //   description:
-  //     `The Recipe app keeps track of all your recipes, ingredients, and inventory.It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.
-  //      Also,since sharing recipes is an important part of cooking the app should allow you to make them.`,
+  //     `The Recipe app keeps track of all your recipes,
+  //     ingredients, and inventory.It will allow you to save ingredients,
+  //     keep track of what you have, create recipes, and generate a shopping
+  //     list based on what you have and what you are missing from a recipe.
+  //     Also,since sharing recipes is an important part of cooking the
+  //     app should allow you to make them.`,
   // },
 
   // {
@@ -114,7 +131,9 @@ const projects = [
   //   live: 'https://degisew-space-travelers-hub.netlify.app/',
   //   description:
   //     `A website built with React, Redux, MUI, SpaceX API, and CSS.
-  //      Some of the features are: a user can reserve rockets, can register and join missions, and can see his/her reservation details in his profile section. The user can also cancel the reservation any time.`,
+  //      Some of the features are: a user can reserve rockets, can register
+  //      and join missions, and can see his/her reservation details in his profile 
+  //      section. The user can also cancel the reservation any time.`,
   // },
   // {
   //   id: 7,
@@ -124,8 +143,10 @@ const projects = [
   //   github: 'https://github.com/degisew/TheMealDB-API',
   //   live: 'https://degisew.github.io/TheMealDB-API/dist/',
   //   description:
-  //     `This project is created using HTML5,SCSS and JavaScript with TheMealDB API that accesses the meals from the api and displays it.
-  //     some of the features are: user can see the meals and add and see his/her comment. The user can also reserve the meals.`,
+  //     `This project is created using HTML5,SCSS and JavaScript with TheMealDB
+  //      API that accesses the meals from the api and displays it.
+  //      some of the features are: user can see the meals and add and see his/her
+  //      comment. The user can also reserve the meals.`,
   // },
   // {
   //   id: 8,
@@ -156,10 +177,10 @@ const projects = [
 const testimonals = [];
 
 const contact = {
-  address: "Addis Ababa, Ethiopia",
+  address: 'Addis Ababa, Ethiopia',
   // Phone: '+251953059021',
   // postalCode: 'Postal code: 6000',
-  email: "degisew.mengist21@gmail.com",
+  email: 'degisew.mengist21@gmail.com',
 };
 
 export {
