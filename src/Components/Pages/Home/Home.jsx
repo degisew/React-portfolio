@@ -1,6 +1,6 @@
 /* eslint-disable */
-import React from 'react';
-import selectors from './Home.module.css';
+import React from "react";
+import selectors from "./Home.module.css";
 
 const Home = ({ closeMenuHandler, menu }) => {
   const closeMenuHandlerFun = (e) => {
@@ -18,7 +18,7 @@ const Home = ({ closeMenuHandler, menu }) => {
             About Me
           </a>
           <a href="#skills" onClick={closeMenuHandlerFun}>
-            {' '}
+            {" "}
             Skills
           </a>
           <a href="#projects" onClick={closeMenuHandlerFun}>
@@ -28,7 +28,7 @@ const Home = ({ closeMenuHandler, menu }) => {
             Contact
           </a>
           <a
-            href="https://drive.google.com/file/d/1P6zUrBeWY0va2YwnjVEcxx60axJrq3Kz/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LdPJDFw2CcpswCY0z-3T_xw8qWkC09W9/view?usp=sharing"
             id={selectors.resume}
             target="_blank"
             rel="noopener noreferrer"
@@ -48,13 +48,18 @@ const Home = ({ closeMenuHandler, menu }) => {
         </div>
         <div className={selectors.nameJobDiv}>
           <div className={selectors.name}>Degisew Mengist</div>
-          <div className={selectors.job}>I build things for the web!</div>
+          <div className={selectors.job}>
+            I build the Behind the Scene's of Great Products!
+          </div>
         </div>
         <div className={selectors.description}>
           <p>
-            A passionate and versatile Software Engineer dedicated to crafting 
-            meaningful and efficient solutions. Pair-programming and remote
-            work aficionado. Skilled in problem solving and I use code as a tool to write the solution.
+            I build backend systems mostly with Python, Django, and FastAPI. I'm
+            focusing on code that’s clear, tested, well documented, and does
+            what it’s supposed to. I enjoy working through real-world problems,
+            thinking about how things fit together, and making sure the pieces
+            don’t fall apart six months later. I like working remotely, thinking
+            through systems, and building things that last.
           </p>
         </div>
       </div>

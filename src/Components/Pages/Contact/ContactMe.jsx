@@ -41,7 +41,7 @@ const ContactMe = () => (
               <AiFillGithub className={selectors.github} />
             </a>
             <a
-              href="https://www.twitter.com/@DJ_etiya"
+              href="https://www.twitter.com/@py_dagi"
               target="_blank"
               rel="noopener noreferrer"
             >

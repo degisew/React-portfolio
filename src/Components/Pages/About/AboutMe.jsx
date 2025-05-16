@@ -1,6 +1,6 @@
-import SharedSelectors from '../SharedStyles.module.css';
-import selectors from './AboutMe.module.css';
-import photo from '../../../assets/images/Dag.jpg';
+import SharedSelectors from "../SharedStyles.module.css";
+import selectors from "./AboutMe.module.css";
+import photo from "../../../assets/images/Dag.jpg";
 
 const AboutMe = () => (
   <section id="about">
@@ -11,16 +11,16 @@ const AboutMe = () => (
       <div className={selectors.photoDetailDiv}>
         <div className={selectors.myDetail}>
           <p>
-            I am Degisew, an Experienced Software engineer with four years of expertise
-            in developing and maintaining high-performance web applications globally.
-            Proficient in Python, Django, JavaScript, and databases like
-            PostgreSQL, MySQL, Neo4j, and MongoDB. Specializes in architecting
-            scalable and secure server-side solutions. Committed to
-            continuous learning, possessing a strong work ethic, and
-            excelling in communication, collaboration, and problem-solving.
-            Confident in making a substantial contribution to the team,
-            working collectively to achieve project goals
-            and deliver high-quality Back-end solutions.
+            I’m Degisew, a backend developer based in Ethiopia. I work mostly
+            with Python, Django, and FastAPI — building, testing, and
+            documenting APIs, and systems that are meant to last. I enjoy is
+            solving real problems, keeping things simple, and writing code that
+            other people can actually understand and build on. I like thinking
+            through how a system should behave, spotting edge cases, and making
+            sure nothing breaks quietly in the background. I love working
+            remotely, enjoy async communication, and collaboration when there’s
+            a tough problem to crack. I learn every day, getting better, staying
+            clear-headed, and building things the right way.
           </p>
         </div>
         <div className={selectors.photo}>
