@@ -49,7 +49,7 @@ const Home = ({ closeMenuHandler, menu }) => {
         <div className={selectors.nameJobDiv}>
           <div className={selectors.name}>Degisew Mengist</div>
           <div className={selectors.job}>
-            I build the Behind the Scene's of Great Products!
+            I build the backend that powers great products.
           </div>
         </div>
         <div className={selectors.description}>

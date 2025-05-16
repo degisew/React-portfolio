@@ -1,6 +1,6 @@
 const languages = ['Python', 'SQL', 'HTML5', 'CSS3'];
 
-const frameworks = ['Django Rest Framework', 'FastAPI', 'Django'];
+const frameworks = [ 'Django', 'DRF', 'FastAPI'];
 
 const ToolsAndMethods = [
   'Git',
@@ -25,7 +25,7 @@ const projects = [
   {
     id: 1,
     title: 'Event Ticket Reservation',
-    url: '',
+    url: 'screenshoots/tickets.png',
     builtWith: [
       'Python',
       'Django',
@@ -44,7 +44,7 @@ const projects = [
   {
     id: 2,
     title: 'Artisan Marketplace',
-    url: '',
+    url: 'screenshoots/marketplace.png',
     builtWith: [
       'Python',
       'Django',
@@ -83,17 +83,17 @@ const projects = [
     It includes endpoints for creating, retrieving, updating, and deleting products,
     as well as for managing orders, customers, carts, and their items.`,
   },
-  {
-    id: 5,
-    title: 'E-Commerce Shop App',
-    url: 'screenshoots/commerce.png',
-    builtWith: ['React', 'CSS3', 'Material-UI', 'Commercejs-API', 'Stripe'],
-    github: 'https://github.com/degisew/E-commerce',
-    live: 'https://degisew-commerce.netlify.app/',
-    description: `A full-stack E-Commerce app for your shopping business. 
-    It allows users to buy products, add to the cart, remove from the cart,
-    choosethe shipping process, and make payments.`,
-  },
+  // {
+  //   id: 5,
+  //   title: 'E-Commerce Shop App',
+  //   url: 'screenshoots/commerce.png',
+  //   builtWith: ['React', 'CSS3', 'Material-UI', 'Commercejs-API', 'Stripe'],
+  //   github: 'https://github.com/degisew/E-commerce',
+  //   live: 'https://degisew-commerce.netlify.app/',
+  //   description: `A full-stack E-Commerce app for your shopping business. 
+  //   It allows users to buy products, add to the cart, remove from the cart,
+  //   choosethe shipping process, and make payments.`,
+  // },
   // {
   //   id: 3,
   //   title: 'Budget Management App',
