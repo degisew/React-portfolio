@@ -1,6 +1,6 @@
 const languages = ['Python', 'SQL', 'HTML5', 'CSS3'];
 
-const frameworks = [ 'Django', 'DRF', 'FastAPI'];
+const frameworks = ['Django', 'DRF', 'FastAPI'];
 
 const ToolsAndMethods = [
   'Git',
@@ -90,7 +90,7 @@ const projects = [
   //   builtWith: ['React', 'CSS3', 'Material-UI', 'Commercejs-API', 'Stripe'],
   //   github: 'https://github.com/degisew/E-commerce',
   //   live: 'https://degisew-commerce.netlify.app/',
-  //   description: `A full-stack E-Commerce app for your shopping business. 
+  //   description: `A full-stack E-Commerce app for your shopping business.
   //   It allows users to buy products, add to the cart, remove from the cart,
   //   choosethe shipping process, and make payments.`,
   // },
