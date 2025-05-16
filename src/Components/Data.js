@@ -29,8 +29,10 @@ const projects = [
     builtWith: [
       'Python',
       'FastAPI',
-      'PostgreSQL',
       'Docker',
+      'Alembic',
+      'SQL Alchemy',
+      'PostgreSQL',
       'Background Tasks',
 
     ],
