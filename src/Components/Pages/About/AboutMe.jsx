@@ -13,7 +13,7 @@ const AboutMe = () => (
           <p>
             I’m Degisew, a backend developer based in Ethiopia. I work mostly
             with Python, Django, and FastAPI — building, testing, and
-            documenting APIs, and systems that are meant to last. I enjoy is
+            documenting APIs, and systems that are meant to last. I enjoy
             solving real problems, keeping things simple, and writing code that
             other people can actually understand and build on. I like thinking
             through how a system should behave, spotting edge cases, and making

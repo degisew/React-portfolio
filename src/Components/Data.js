@@ -28,14 +28,13 @@ const projects = [
     url: 'screenshoots/tickets.png',
     builtWith: [
       'Python',
-      'Django',
-      'Django Rest Framework',
+      'FastAPI',
       'PostgreSQL',
       'Docker',
-      'Redis',
-      'Celery',
+      'Background Tasks',
+
     ],
-    github: 'https://github.com/degisew/event_ticketing',
+    github: 'https://github.com/degisew/event_ticketing_fastapi',
     live: '',
     description: `A platform that enables users to seamlessly browse, book, and manage
     event tickets. Designed for organizers to create and manage events,

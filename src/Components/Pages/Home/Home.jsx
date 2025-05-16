@@ -58,7 +58,7 @@ const Home = ({ closeMenuHandler, menu }) => {
             focusing on code that’s clear, tested, well documented, and does
             what it’s supposed to. I enjoy working through real-world problems,
             thinking about how things fit together, and making sure the pieces
-            don’t fall apart six months later. I like working remotely, thinking
+            don’t fall apart later. I like working remotely, thinking
             through systems, and building things that last.
           </p>
         </div>
